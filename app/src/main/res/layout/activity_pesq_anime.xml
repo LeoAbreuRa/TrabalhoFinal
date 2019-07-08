@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".view.PesqAnimeActivity"
+    android:background="#B1ABAB"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="@string/titulo_pesq_catalago"
+        android:layout_gravity="center"
+        android:textColor="#000"
+        android:textStyle="bold"
+        />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+    <Button
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="wrap_content"
+        android:text="@string/button_chama_tela_cad_anime"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="#E6F74E04"
+        android:layout_margin="5sp"
+        android:onClick="cadastrar"
+        />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5sp"
+        android:layout_weight="1"
+        android:background="#E6F74E04"
+        android:onClick="voltar"
+        android:text="@string/button_voltar"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+</LinearLayout>
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lvAnimes"
+        android:padding="10sp"
+        ></ListView>
+
+
+</LinearLayout>

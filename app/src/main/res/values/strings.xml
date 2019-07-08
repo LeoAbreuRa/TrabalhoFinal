@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Catálogo de Animes</string>
+
+    <!--String do Catálogo-->
+    <string name="titulo_anime">Animes</string>
+    <string name="titulo_cad_anime">Cadastro de Animes</string>
+    <string name="titulo_pesq_catalago">Catálogo de Animes</string>
+
+    <!--String EditText-->
+    <string name="edit_nome_anime">Nome:</string>
+    <string name="edit_num_epi">Episódios:</string>
+    <string name="edit_genero">Gêneros:</string>
+
+    <!--String Hints-->
+    <string name="hint_nome_anime">Digite o Anime</string>
+    <string name="hint_num_anime">Digite o Nº de Episódios</string>
+    <string name="hint_genero">Digite os gêneros </string>
+
+    <!--String botões-->
+    <string name="button_cad">Cadastrar</string>
+    <string name="button_cancelar">Cancelar</string>
+    <string name="button_pesquisar">Pesquisar</string>
+    <string name="button_voltar">Voltar</string>
+    <string name="button_chama_tela_cad_anime">Cadastrar Animes</string>
+    <string name="button_chama_tela_pesq_anime">Pesquisar</string>
+    <string name="button_entrar">Entrar</string>
+    <string name="button_sair">Sair</string>
+
+    <!--Strings de Erros-->
+    <string name="erro_nome">Anime é Obrigatório</string>
+    <string name="erro_epi">Episódios é obrigatório</string>
+    <string name="erro_genero">Gêneros é obrigatório</string>
+
+    <!--Strings de sucesso-->
+    <string name="cad_sucesso">Cadastrado com Sucesso</string>
+    <string name="edit_sucesso">Editado com Sucesso</string>
+
+</resources>
